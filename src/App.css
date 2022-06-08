@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.loading {
+  color: green
+}
+
+.site {
+  color: #7e7e7e;
+  outline: none;
+  text-decoration: none;
+  top: 5px;
+  width: 76px;
+  height: 32px;
+  padding: 14px 14px;
+  font-size: 20px;
+  position: absolute;
+}
+
+.site:hover {
+  text-decoration: none;
+  color: #eeeeee;
+}
+.site:focus {
+  text-decoration: none;
+  color: #eeeeee;
+}
+.site:active {
+  text-decoration: none;
+  color: #eeeeee;
+}
+.site:visited {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.mainButtons {
+  color: #7e7e7e;
+  outline: none;
+  text-decoration: none;
+  top: 5px;
+  height: 32px;
+  padding: 14px 14px;
+  font-size: 20px;
+}
+
+.mainButtons:hover {
+  text-decoration: none;
+  color: #eeeeee;
+}
+.mainButtons:focus {
+  text-decoration: none;
+  color: #eeeeee;
+}
+.mainButtons:active {
+  text-decoration: none;
+  color: #eeeeee;
+}
+.mainButtons:visited {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+.inputNewGame {
+  width: 600px;
+  height: 35px;
+}
+
+.summary {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  position: absolute;
+  left: 630px;
+}
+
+.error {
+  color: red;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.success {
+  color: green;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.createGameButton {
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
