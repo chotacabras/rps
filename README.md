@@ -1,15 +1,5 @@
-# Basic Sample Hardhat Project
+# RPS web3 app
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+In this app, users will be able to play rock-paper-scissors. Since this is a web3 app, the matches are hosted in the blockchain.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+It is very intuitive to play, the user is guided every step.
