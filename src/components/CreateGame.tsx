@@ -4,6 +4,7 @@ import React, { Dispatch, SetStateAction, useEffect, useState } from 'react'
 import { main } from '../ethereum/deployRPS.mjs'
 import Web3 from 'web3'
 
+
 const CreateGame = ({
   setBadMessage,
   accounts,
