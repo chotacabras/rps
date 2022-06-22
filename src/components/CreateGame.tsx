@@ -42,7 +42,7 @@ const CreateGame = ({
       return
     } else {
       const salt = Web3.utils.randomHex(32)
-      //test
+      console.log(salt)
       localStorage.setItem('movePlayerOne', JSON.stringify(movePlayerOne))
       localStorage.setItem('salt', JSON.stringify(salt))
       setLoading(true)
