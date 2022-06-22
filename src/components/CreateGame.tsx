@@ -2,6 +2,7 @@
 import { BigNumber } from 'ethers'
 import React, { Dispatch, SetStateAction, useEffect, useState } from 'react'
 import { main } from '../ethereum/deployRPS.mjs'
+import Web3 from 'web3'
 
 const CreateGame = ({
   setBadMessage,
@@ -39,7 +40,8 @@ const CreateGame = ({
       }, 3000)
       return
     } else {
-      const salt = BigNumber.from(Math.floor(Math.random() * 10000000000000))
+      const salt = Web3.utils.randomHex(32)
+      console.log(salt)
       localStorage.setItem('movePlayerOne', JSON.stringify(movePlayerOne))
       localStorage.setItem('salt', JSON.stringify(salt))
       setLoading(true)
